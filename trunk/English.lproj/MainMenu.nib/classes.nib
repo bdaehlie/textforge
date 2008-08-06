@@ -1,0 +1,53 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                LBChanged = id; 
+                checkPerlSyntax = id; 
+                goToLineSheet = id; 
+                insertDocument = id; 
+                insertMSWordDoc = id; 
+                insertPath = id; 
+                previewInBrowser = id; 
+                removeLines = id; 
+                runChangeCaseSheet = id; 
+                runGetInfoSheet = id; 
+                runInTerminal = id; 
+                runTabConvertSheet = id; 
+                selectEntireLine = id; 
+                toggleSoftWrap = id; 
+            }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                changeDocEncoding = id; 
+                editBrowserList = id; 
+                jumpToSelection = id; 
+                newDocWithSelection = id; 
+                newXHTMLDoc = id; 
+                openDocument = id; 
+                previewInBrowser = id; 
+                showPreferences = id; 
+            }; 
+            CLASS = MyDocumentController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                encodingMenuItem = NSMenuItem; 
+                previewInBrowserMenu = NSMenuItem; 
+                syntaxColoringMenu = NSMenuItem; 
+            }; 
+            SUPERCLASS = NSDocumentController; 
+        }, 
+        {
+            ACTIONS = {removeLinesContaining = id; showFindPanel = id; }; 
+            CLASS = OgreTextFinder; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {findMenu = NSMenu; findPanelController = OgreFindPanelController; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,80 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                clearAll = id; 
+                encodingListChanged = id; 
+                revertToDefault = id; 
+                selectAll = id; 
+                showPanel = id; 
+            }; 
+            CLASS = EncodingManager; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                encodingAccessory = NSView; 
+                encodingMatrix = NSMatrix; 
+                encodingPopupButton = EncodingPopUpButton; 
+                ignoreRichTextButton = NSButton; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = EncodingPopUpButton; LANGUAGE = ObjC; SUPERCLASS = NSPopUpButton; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                LBChanged = id; 
+                changeCaseSheetEnd = id; 
+                checkPerlSyntax = id; 
+                encodingChanged = id; 
+                getInfoSheetEnd = id; 
+                goToLineSheet = id; 
+                goToLineSheetEnd = id; 
+                insertDocument = id; 
+                insertMSWordDoc = id; 
+                insertPath = id; 
+                previewInBrowser = id; 
+                runChangeCaseSheet = id; 
+                runGetInfoSheet = id; 
+                runInTerminal = id; 
+                runTabConvertSheet = id; 
+                selectEntireLine = id; 
+                tabConvertSheetEnd = id; 
+                toggleSoftWrap = id; 
+            }; 
+            CLASS = MyDocument; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                changeCaseCancelButton = NSButton; 
+                changeCaseMatrix = NSMatrix; 
+                changeCaseOKButton = NSButton; 
+                changeCasePanel = NSPanel; 
+                changeCaseSelectionOnlyButton = NSButton; 
+                docWindow = NSWindow; 
+                getInfoAAField = NSTextField; 
+                getInfoABField = NSTextField; 
+                getInfoACField = NSTextField; 
+                getInfoBAField = NSTextField; 
+                getInfoBBField = NSTextField; 
+                getInfoBCField = NSTextField; 
+                getInfoCloseButton = NSButton; 
+                getInfoPanel = NSPanel; 
+                getInfoPathField = NSTextField; 
+                goToLineCancelButton = NSButton; 
+                goToLineOKButton = NSButton; 
+                goToLinePanel = NSPanel; 
+                goToLineTextField = NSTextField; 
+                lineNumberTextField = NSTextField; 
+                positionTextField = NSTextField; 
+                scrollView = NSScrollView; 
+                tabConvertButton = NSButton; 
+                tabConvertCancelButton = NSButton; 
+                tabConvertPanel = NSPanel; 
+                tabConvertSelectionOnlyButton = NSButton; 
+                tabConvertTextField = NSTextField; 
+            }; 
+            SUPERCLASS = NSDocument; 
+        }, 
+        {CLASS = tfTextView; LANGUAGE = ObjC; SUPERCLASS = NSTextView; }
+    ); 
+    IBVersion = 1; 
+}
