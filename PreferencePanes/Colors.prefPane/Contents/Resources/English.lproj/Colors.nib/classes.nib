@@ -1,0 +1,36 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                blackColorScheme = id; 
+                blueColorScheme = id; 
+                changeBGColor = id; 
+                changeFGColor = id; 
+                whiteColorScheme = id; 
+            }; 
+            CLASS = ColorsPref; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                BGColorWell = NSColorWell; 
+                BlackOnWhiteButton = NSButton; 
+                FGColorWell = NSColorWell; 
+                WhiteOnBlackButton = NSButton; 
+                WhiteOnBlueButton = NSButton; 
+            }; 
+            SUPERCLASS = NSPreferencePane; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = NSPreferencePane; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_firstKeyView" = id; 
+                "_initialKeyView" = id; 
+                "_lastKeyView" = id; 
+                "_window" = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

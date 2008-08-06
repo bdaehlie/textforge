@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Japanese (ISO-2022-JP)</key>
+	<string>iso-2022-jp</string>
+	<key>Japanese (Mac OS)</key>
+	<string>x-mac-japanese</string>
+	<key>Japanese (Shift JIS)</key>
+	<string>shift_jis</string>
+	<key>Korean (Mac OS)</key>
+	<string>x-mac-korean</string>
+	<key>Mac Roman</key>
+	<string>macintosh</string>
+	<key>Simplified Chinese (Mac OS)</key>
+	<string>x-mac-chinesesimp</string>
+	<key>Traditional Chinese (Mac OS)</key>
+	<string>x-mac-chinesetrad</string>
+	<key>Unicode™ (UTF-16, no BOM)</key>
+	<string>utf-16be</string>
+	<key>Unicode™ (UTF-8, no BOM)</key>
+	<string>utf-8</string>
+	<key>Western (ISO Latin 1)</key>
+	<string>iso-8859-1</string>
+	<key>Western (ISO Latin 9)</key>
+	<string>iso-8859-15</string>
+	<key>Western (Windoze Latin 1)</key>
+	<string>windows-1252</string>
+</dict>
+</plist>

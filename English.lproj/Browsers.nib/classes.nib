@@ -1,0 +1,19 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {addBrowser = id; removeBrowser = id; setDefaultBrowser = id; showPanel = id; }; 
+            CLASS = BrowserPanel; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                addBrowserButton = NSButton; 
+                browserTable = NSTableView; 
+                defaultBrowserTextField = NSTextField; 
+                removeBrowserButton = NSButton; 
+                setDefaultButton = NSButton; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,22 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {createDoc = id; hidePanel = id; showPanel = id; }; 
+            CLASS = NewHTMLDocPanel; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                DOCTYPEPopUp = NSPopUpButton; 
+                cancelButton = NSButton; 
+                charsetPopUp = NSPopUpButton; 
+                createButton = NSButton; 
+                insertDOCTYPEButton = NSButton; 
+                insertXMLDeclarationButton = NSButton; 
+                langPopUp = NSPopUpButton; 
+                titleTextField = NSTextField; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

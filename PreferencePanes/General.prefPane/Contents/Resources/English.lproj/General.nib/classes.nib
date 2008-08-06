@@ -1,0 +1,69 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                changeDefaultLB = id; 
+                changeOpenEncoding = id; 
+                changeSaveEncoding = id; 
+                changeTabSpacesNumber = id; 
+                clearAll = id; 
+                done = id; 
+                encodingListChanged = id; 
+                revertToDefault = id; 
+                selectAll = id; 
+                showPanel = id; 
+                toggleAutoIndent = id; 
+                toggleNewDoc = id; 
+                toggleTabSpaces = id; 
+                toggleUseSmartInsertDelete = id; 
+            }; 
+            CLASS = ComTranceSoftwareTextForgePreferenceGeneral; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                autoIndentButton = NSButton; 
+                customizeEncodingList = NSPanel; 
+                defaultLBMenu = NSPopUpButton; 
+                encodingMatrix = id; 
+                newDocSwitch = NSButton; 
+                openEncodingMenu = EncodingPopUpButton; 
+                saveEncodingMenu = EncodingPopUpButton; 
+                smartInsertDeleteSwitch = NSButton; 
+                tabSpacesButton = NSButton; 
+                tabSpacesField = NSTextField; 
+            }; 
+            SUPERCLASS = NSPreferencePane; 
+        }, 
+        {
+            ACTIONS = {
+                clearAll = id; 
+                encodingListChanged = id; 
+                revertToDefault = id; 
+                selectAll = id; 
+                showPanel = id; 
+            }; 
+            CLASS = EncodingManager; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                encodingAccessory = NSView; 
+                encodingMatrix = NSMatrix; 
+                encodingPopupButton = EncodingPopUpButton; 
+                ignoreRichTextButton = NSButton; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = EncodingPopUpButton; LANGUAGE = ObjC; SUPERCLASS = NSPopUpButton; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = NSPreferencePane; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_firstKeyView" = id; 
+                "_initialKeyView" = id; 
+                "_lastKeyView" = id; 
+                "_window" = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}
